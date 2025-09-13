@@ -1,0 +1,128 @@
+{
+   "checksum": "daab4be3c6bda7ccfad7e1c00cbac182",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13399490105594444",
+            "date_last_used": "0",
+            "guid": "175eb0df-7309-4136-80e8-53b755543e5f",
+            "id": "19",
+            "name": "Agoda",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://js.redirect.hp.com/jumpstation?bd=agoda&c=232&locale=*&pf=*&tp=edge&TYPE=3",
+            "visit_count": 0
+         }, {
+            "date_added": "13399490105592726",
+            "date_last_used": "0",
+            "guid": "cb9f0adf-07d2-4e7a-9030-aa4e7887b1dc",
+            "id": "18",
+            "name": "McAfee Security",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.mcafee.com/consumer/v/browserfav/hp.html",
+            "visit_count": 0
+         }, {
+            "date_added": "13399489524451463",
+            "date_last_used": "0",
+            "guid": "45854f68-2980-49ad-beb5-cf325cd4ab81",
+            "id": "15",
+            "name": "Agoda",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://js.redirect.hp.com/jumpstation?bd=agoda&c=232&locale=*&pf=*&tp=edge&TYPE=3",
+            "visit_count": 0
+         }, {
+            "date_added": "13399489524450780",
+            "date_last_used": "0",
+            "guid": "82d283f8-563d-4d29-8696-0914311910d8",
+            "id": "14",
+            "name": "McAfee Security",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.mcafee.com/consumer/v/browserfav/hp.html",
+            "visit_count": 0
+         }, {
+            "date_added": "13399486439325143",
+            "date_last_used": "0",
+            "guid": "f192cc62-7799-49f5-b5e9-14ffcd70d3ce",
+            "id": "11",
+            "name": "Agoda",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://js.redirect.hp.com/jumpstation?bd=agoda&c=232&locale=*&pf=*&tp=edge&TYPE=3",
+            "visit_count": 0
+         }, {
+            "date_added": "13399486439323546",
+            "date_last_used": "0",
+            "guid": "ae83ebf2-6658-47a3-b460-c05333092b88",
+            "id": "10",
+            "name": "McAfee Security",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.mcafee.com/consumer/v/browserfav/hp.html",
+            "visit_count": 0
+         }, {
+            "date_added": "13399482973830116",
+            "date_last_used": "0",
+            "guid": "44fbd8fe-4247-46b0-8998-305e3dd6bf5d",
+            "id": "7",
+            "name": "Agoda",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://js.redirect.hp.com/jumpstation?bd=agoda&c=232&locale=*&pf=*&tp=edge&TYPE=3",
+            "visit_count": 0
+         }, {
+            "date_added": "13399482973828491",
+            "date_last_used": "0",
+            "guid": "9024f5c7-a0cf-49d0-b9a8-737b87b7865b",
+            "id": "6",
+            "name": "McAfee Security",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.mcafee.com/consumer/v/browserfav/hp.html",
+            "visit_count": 0
+         } ],
+         "date_added": "13399482972216024",
+         "date_last_used": "0",
+         "date_modified": "13399490105594444",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13399482972216024",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13399482972216024",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CosBCg4IiIECEggqvhqfmAEAABIAGlhZRVZJQmFkTHFIUHFhYjBVN3ZwOW1QcDVvWkNvM1NXY1F6U2JkM2Jmd2o1cjVoK2lkbVVhSFI0WkozenloRi9YcXBBcDFpTXF1U1FXVlFRbTVCT0dsdz09KhgzVUVmU3d3SjVmV094aXpOWStpbnV3PT1IA6AGDBKOAQgDEokBChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiQwNTk0YjM0OC01NThiLTU5YmYtOTQ5YS00YjllYzFmZjAwYjkYACAAKAAwsvXCiKcwOLT4woinMEC0+MKIpzBKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAwj4CYAASjgEIAhKJAQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkZWQ0NzFhYjctMDQ1NC01YWNhLWEwZjMtNjgzZWE5NWMzZjAxGAAgACgAMLL1woinMDi398KIpzBAt/fCiKcwShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAAMI+AmAAEo4BCAESiQEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0SJDNjYzJjOTA2LWQ0N2ItNTY0My1hYzg3LWE3YjJjZmYyZGM5YRgAIAAoADCy9cKIpzA4mPfCiKcwQJj3woinMEocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAADCPgJgADAAOAA=",
+   "version": 1
+}
