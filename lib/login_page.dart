@@ -223,10 +223,11 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color(0xFFFFF4E6), // warm pet-friendly background
-      body: SingleChildScrollView(
-        child: Padding(
-          padding: const EdgeInsets.all(24.0),
+      body: Padding(
+        padding: const EdgeInsets.all(24.0),
+        child: Center(
           child: Column(
+            mainAxisSize: MainAxisSize.min,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               SizedBox(height: 60),
@@ -322,7 +323,7 @@ class _LoginPageState extends State<LoginPage> {
               ),
               Image.asset(
                 'assets/dog.png',
-                height: 235,
+                height: 200,
                 fit: BoxFit.contain,
               ),
             ],

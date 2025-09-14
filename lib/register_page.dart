@@ -325,7 +325,7 @@ class _RegisterPageState extends State<RegisterPage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              SizedBox(height: 60),
+              SizedBox(height: 2),
 
               // PAW CONNECT Logo with paw
               Row(
@@ -352,7 +352,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   ),
                 ],
               ),
-              SizedBox(height: 20),
+              SizedBox(height: 10), // Reduced from 20
 
               Text(
                 "Join our Pet Family!",
@@ -362,7 +362,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   color: Colors.black,
                 ),
               ),
-              SizedBox(height: 30),
+              SizedBox(height: 18), // Reduced from 30
 
               // First Name and Last Name fields
               Row(
@@ -776,8 +776,8 @@ class _RegisterPageState extends State<RegisterPage> {
 
               // Cat image at the bottom
               Image.asset(
-                'assets/cat.png',
-                height: 120,
+                'assets/newcat.png',
+                height: 350, // Increased from 120
                 fit: BoxFit.contain,
               ),
             ],
