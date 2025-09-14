@@ -2613,3 +2613,56 @@
 2025-09-14 07:36:15.303: [INFO][Sync] Credentials changed for: EdgeSyncScopeNew
 2025-09-14 07:40:04.536: [INFO][Sync] Reset engine, reason: 0
 2025-09-14 07:40:04.536: [INFO][Sync] Reset engine with reason: 0
+2025-09-14 16:58:09.475: [INFO][Sync] SyncState after authenticated was: FeatureNotRequestedNotSetup
+2025-09-14 16:58:09.651: [INFO][Sync] Try to start sync engine
+2025-09-14 16:58:09.653: [INFO][SyncManagerImpl::NudgeForInitialDownload] Initial download nudge for Encryption Keys
+2025-09-14 16:58:09.653: [INFO][SyncEngineBackend::LoadAndConnectNigoriController] Load and connect Nigori controller
+2025-09-14 16:58:09.653: [INFO][SyncEngineBackend::DoInitialize] Control Types added: Encryption Keys
+2025-09-14 16:58:09.653: [INFO][SyncManagerImpl::ConfigureSyncer] Types to download: Encryption Keys with reason: 3
+2025-09-14 16:58:09.653: [INFO][SyncSchedulerImpl::DoConfigurationSyncCycleJob] Configure job was blocked
+2025-09-14 16:58:10.814: [INFO][SyncAuthManager::EdgeLogTokenErrorState] Token error with: EDGE_AUTH_ERROR: 6, 2, 0 for account type: AAD
+2025-09-14 16:58:10.814: [INFO][Sync] Credentials changed for: EdgeSyncScopeNew
+2025-09-14 16:58:10.814: [WARN][Sync]    Token is empty
+2025-09-14 16:58:10.817: [INFO][Sync] Connection status changed to: 2
+2025-09-14 16:58:10.836: [INFO][SyncAuthManager::EdgeLogTokenErrorState] Token error with: EDGE_AUTH_ERROR: 6, 2, 0 for account type: AAD
+2025-09-14 16:58:10.836: [INFO][Sync] Credentials changed for: EdgeSyncScopeNew
+2025-09-14 16:58:10.836: [WARN][Sync]    Token is empty
+2025-09-14 16:58:10.838: [INFO][Sync] Connection status changed to: 2
+2025-09-14 16:58:12.753: [INFO][SyncAuthManager::EdgeLogTokenErrorState] Token error with: EDGE_AUTH_ERROR: 6, 2, 0 for account type: AAD
+2025-09-14 16:58:12.753: [INFO][Sync] Credentials changed for: EdgeSyncScopeNew
+2025-09-14 16:58:12.753: [WARN][Sync]    Token is empty
+2025-09-14 16:58:12.754: [INFO][Sync] Connection status changed to: 2
+2025-09-14 16:58:16.441: [INFO][SyncAuthManager::EdgeLogTokenErrorState] Token error with: EDGE_AUTH_ERROR: 6, 2, 0 for account type: AAD
+2025-09-14 16:58:16.441: [INFO][Sync] Credentials changed for: EdgeSyncScopeNew
+2025-09-14 16:58:16.441: [WARN][Sync]    Token is empty
+2025-09-14 16:58:16.443: [INFO][Sync] Connection status changed to: 2
+2025-09-14 16:58:23.584: [INFO][SyncAuthManager::EdgeLogTokenErrorState] Token error with: EDGE_AUTH_ERROR: 6, 2, 0 for account type: AAD
+2025-09-14 16:58:23.584: [INFO][Sync] Credentials changed for: EdgeSyncScopeNew
+2025-09-14 16:58:23.584: [WARN][Sync]    Token is empty
+2025-09-14 16:58:23.586: [INFO][Sync] Connection status changed to: 2
+2025-09-14 16:58:37.613: [INFO][SyncAuthManager::EdgeLogTokenErrorState] Token error with: EDGE_AUTH_ERROR: 6, 2, 0 for account type: AAD
+2025-09-14 16:58:37.613: [INFO][Sync] Credentials changed for: EdgeSyncScopeNew
+2025-09-14 16:58:37.613: [WARN][Sync]    Token is empty
+2025-09-14 16:58:37.614: [INFO][Sync] Connection status changed to: 2
+2025-09-14 16:59:04.268: [INFO][SyncAuthManager::EdgeLogTokenErrorState] Token error with: EDGE_AUTH_ERROR: 6, 2, 0 for account type: AAD
+2025-09-14 16:59:04.268: [INFO][Sync] Credentials changed for: EdgeSyncScopeNew
+2025-09-14 16:59:04.268: [WARN][Sync]    Token is empty
+2025-09-14 16:59:04.270: [INFO][Sync] Connection status changed to: 2
+2025-09-14 16:59:59.208: [INFO][SyncAuthManager::EdgeLogTokenErrorState] Token error with: EDGE_AUTH_ERROR: 6, 2, 0 for account type: AAD
+2025-09-14 16:59:59.208: [INFO][Sync] Credentials changed for: EdgeSyncScopeNew
+2025-09-14 16:59:59.208: [WARN][Sync]    Token is empty
+2025-09-14 16:59:59.210: [INFO][Sync] Connection status changed to: 2
+2025-09-14 17:01:51.618: [INFO][SyncAuthManager::EdgeLogTokenErrorState] Token error with: EDGE_AUTH_ERROR: 6, 2, 0 for account type: AAD
+2025-09-14 17:01:51.618: [INFO][Sync] Credentials changed for: EdgeSyncScopeNew
+2025-09-14 17:01:51.618: [WARN][Sync]    Token is empty
+2025-09-14 17:01:51.620: [INFO][Sync] Connection status changed to: 2
+2025-09-14 17:05:38.201: [INFO][SyncAuthManager::EdgeLogTokenErrorState] Token error with: EDGE_AUTH_ERROR: 6, 2, 0 for account type: AAD
+2025-09-14 17:05:38.201: [INFO][Sync] Credentials changed for: EdgeSyncScopeNew
+2025-09-14 17:05:38.201: [WARN][Sync]    Token is empty
+2025-09-14 17:05:38.203: [INFO][Sync] Connection status changed to: 2
+2025-09-14 17:13:55.598: [INFO][SyncAuthManager::EdgeLogTokenErrorState] Token error with: EDGE_AUTH_ERROR: 6, 2, 0 for account type: AAD
+2025-09-14 17:13:55.598: [INFO][Sync] Credentials changed for: EdgeSyncScopeNew
+2025-09-14 17:13:55.598: [WARN][Sync]    Token is empty
+2025-09-14 17:13:55.600: [INFO][Sync] Connection status changed to: 2
+2025-09-14 17:27:40.616: [INFO][Sync] Reset engine, reason: 0
+2025-09-14 17:27:40.616: [INFO][Sync] Reset engine with reason: 0
