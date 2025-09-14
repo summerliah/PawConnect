@@ -237,7 +237,7 @@ class _LoginPageState extends State<LoginPage> {
               SizedBox(height: 20),
 
               Text(
-                "Welcome, Pet Lover!",
+                "Welcome, Pet HATER!",
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
