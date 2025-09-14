@@ -119,7 +119,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         ),
                       ),
                       SizedBox(height: 24),
-                      
+
                       // Main title
                       Text(
                         'Account Created! 🎉',
@@ -131,7 +131,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         textAlign: TextAlign.center,
                       ),
                       SizedBox(height: 12),
-                      
+
                       // Subtitle
                       Text(
                         'Welcome to Paw Connect!',
@@ -143,7 +143,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         textAlign: TextAlign.center,
                       ),
                       SizedBox(height: 20),
-                      
+
                       // Email info card
                       Container(
                         padding: EdgeInsets.all(16),
@@ -197,7 +197,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         ),
                       ),
                       SizedBox(height: 16),
-                      
+
                       // Description
                       Text(
                         'We\'ve sent a verification link to your email. Please check your inbox and click the link to activate your account.',
@@ -209,7 +209,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         textAlign: TextAlign.center,
                       ),
                       SizedBox(height: 24),
-                      
+
                       // Modern button
                       Container(
                         width: double.infinity,

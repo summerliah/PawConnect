@@ -1,78 +1,323 @@
 {
-   "checksum": "f4eddc0063a1335dbf89bb6d7ddb51ce",
+   "checksum": "859990da749284722247414c3fdca46b",
    "roots": {
       "bookmark_bar": {
          "children": [ {
+            "date_added": "13402308975069983",
+            "date_last_used": "0",
+            "guid": "d912acf9-328f-495a-b9cc-3be09dcd325b",
+            "id": "59",
+            "name": "Agoda",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://js.redirect.hp.com/jumpstation?bd=agoda&c=232&locale=*&pf=*&tp=edge&TYPE=3",
+            "visit_count": 0
+         }, {
+            "date_added": "13402308975069597",
+            "date_last_used": "0",
+            "guid": "6ab0c88e-5e75-4332-9a79-adc0e2d40390",
+            "id": "58",
+            "name": "McAfee Security",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.mcafee.com/consumer/v/browserfav/hp.html",
+            "visit_count": 0
+         }, {
+            "date_added": "13402308805613692",
+            "date_last_used": "0",
+            "guid": "bf5bc9a6-b34d-4af3-8d82-d25b4883002a",
+            "id": "55",
+            "name": "Agoda",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://js.redirect.hp.com/jumpstation?bd=agoda&c=232&locale=*&pf=*&tp=edge&TYPE=3",
+            "visit_count": 0
+         }, {
+            "date_added": "13402308805613436",
+            "date_last_used": "0",
+            "guid": "78fecce2-d90f-48d3-974f-27c7bfcc771a",
+            "id": "54",
+            "name": "McAfee Security",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.mcafee.com/consumer/v/browserfav/hp.html",
+            "visit_count": 0
+         }, {
+            "date_added": "13402307414279033",
+            "date_last_used": "0",
+            "guid": "3663b980-c53e-4c8e-a4b9-26192850627c",
+            "id": "51",
+            "name": "Agoda",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://js.redirect.hp.com/jumpstation?bd=agoda&c=232&locale=*&pf=*&tp=edge&TYPE=3",
+            "visit_count": 0
+         }, {
+            "date_added": "13402307414278325",
+            "date_last_used": "0",
+            "guid": "3f279c6d-1a60-45d3-a9fd-c4f546ccd2a8",
+            "id": "50",
+            "name": "McAfee Security",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.mcafee.com/consumer/v/browserfav/hp.html",
+            "visit_count": 0
+         }, {
+            "date_added": "13402306961594727",
+            "date_last_used": "0",
+            "guid": "fee713c9-a616-4ec9-8c35-0ba56fdcdc9a",
+            "id": "47",
+            "name": "Agoda",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://js.redirect.hp.com/jumpstation?bd=agoda&c=232&locale=*&pf=*&tp=edge&TYPE=3",
+            "visit_count": 0
+         }, {
+            "date_added": "13402306961594422",
+            "date_last_used": "0",
+            "guid": "4a6b9f0d-baa2-46fb-b544-7e0b75951033",
+            "id": "46",
+            "name": "McAfee Security",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.mcafee.com/consumer/v/browserfav/hp.html",
+            "visit_count": 0
+         }, {
+            "date_added": "13402306911576092",
+            "date_last_used": "0",
+            "guid": "8782d9e3-6cbb-47be-93f8-095ab021054e",
+            "id": "43",
+            "name": "Agoda",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://js.redirect.hp.com/jumpstation?bd=agoda&c=232&locale=*&pf=*&tp=edge&TYPE=3",
+            "visit_count": 0
+         }, {
+            "date_added": "13402306911575691",
+            "date_last_used": "0",
+            "guid": "0afe5f64-7c59-44de-a1ba-d8d862410947",
+            "id": "42",
+            "name": "McAfee Security",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.mcafee.com/consumer/v/browserfav/hp.html",
+            "visit_count": 0
+         }, {
+            "date_added": "13402306006877218",
+            "date_last_used": "0",
+            "guid": "f8fe8312-0ca3-46c6-befe-25c943a6eba0",
+            "id": "39",
+            "name": "Agoda",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://js.redirect.hp.com/jumpstation?bd=agoda&c=232&locale=*&pf=*&tp=edge&TYPE=3",
+            "visit_count": 0
+         }, {
+            "date_added": "13402306006876588",
+            "date_last_used": "0",
+            "guid": "21feaf48-4669-4aae-9f68-3ea9d82b35fa",
+            "id": "38",
+            "name": "McAfee Security",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.mcafee.com/consumer/v/browserfav/hp.html",
+            "visit_count": 0
+         }, {
+            "date_added": "13402253131061878",
+            "date_last_used": "0",
+            "guid": "819fc977-a550-411a-9c0c-961bcb80eba6",
+            "id": "35",
+            "name": "Agoda",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://js.redirect.hp.com/jumpstation?bd=agoda&c=232&locale=*&pf=*&tp=edge&TYPE=3",
+            "visit_count": 0
+         }, {
+            "date_added": "13402253131061428",
+            "date_last_used": "0",
+            "guid": "539d583f-70e9-4623-b27b-ed5b6fb1c432",
+            "id": "34",
+            "name": "McAfee Security",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.mcafee.com/consumer/v/browserfav/hp.html",
+            "visit_count": 0
+         }, {
+            "date_added": "13402252271434294",
+            "date_last_used": "0",
+            "guid": "3405081b-045f-47ed-8e87-a92d9ad91285",
+            "id": "31",
+            "name": "Agoda",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://js.redirect.hp.com/jumpstation?bd=agoda&c=232&locale=*&pf=*&tp=edge&TYPE=3",
+            "visit_count": 0
+         }, {
+            "date_added": "13402252271433859",
+            "date_last_used": "0",
+            "guid": "a999dad6-5209-4840-a451-c4c41b4f598f",
+            "id": "30",
+            "name": "McAfee Security",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.mcafee.com/consumer/v/browserfav/hp.html",
+            "visit_count": 0
+         }, {
+            "date_added": "13402245113200221",
+            "date_last_used": "0",
+            "guid": "d2b654d4-e4a9-470f-aaf4-42b9f38a6dcc",
+            "id": "27",
+            "name": "Agoda",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://js.redirect.hp.com/jumpstation?bd=agoda&c=232&locale=*&pf=*&tp=edge&TYPE=3",
+            "visit_count": 0
+         }, {
+            "date_added": "13402245113198355",
+            "date_last_used": "0",
+            "guid": "64c73918-7934-4f01-a7af-b81c621dfb32",
+            "id": "26",
+            "name": "McAfee Security",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.mcafee.com/consumer/v/browserfav/hp.html",
+            "visit_count": 0
+         }, {
+            "date_added": "13402230439275317",
+            "date_last_used": "0",
+            "guid": "f79e6566-fe9a-44c9-8d11-e2b6bb4bac8f",
+            "id": "23",
+            "name": "Agoda",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://js.redirect.hp.com/jumpstation?bd=agoda&c=232&locale=*&pf=*&tp=edge&TYPE=3",
+            "visit_count": 0
+         }, {
+            "date_added": "13402230439274950",
+            "date_last_used": "0",
+            "guid": "2e5195c6-6b84-4380-906f-e1bf3431d550",
+            "id": "22",
+            "name": "McAfee Security",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.mcafee.com/consumer/v/browserfav/hp.html",
+            "visit_count": 0
+         }, {
             "date_added": "13399490105594444",
             "date_last_used": "0",
             "guid": "175eb0df-7309-4136-80e8-53b755543e5f",
             "id": "19",
             "name": "Agoda",
+            "show_icon": false,
+            "source": "unknown",
             "type": "url",
-            "url": "https://js.redirect.hp.com/jumpstation?bd=agoda&c=232&locale=*&pf=*&tp=edge&TYPE=3"
+            "url": "https://js.redirect.hp.com/jumpstation?bd=agoda&c=232&locale=*&pf=*&tp=edge&TYPE=3",
+            "visit_count": 0
          }, {
             "date_added": "13399490105592726",
             "date_last_used": "0",
             "guid": "cb9f0adf-07d2-4e7a-9030-aa4e7887b1dc",
             "id": "18",
             "name": "McAfee Security",
+            "show_icon": false,
+            "source": "unknown",
             "type": "url",
-            "url": "https://www.mcafee.com/consumer/v/browserfav/hp.html"
+            "url": "https://www.mcafee.com/consumer/v/browserfav/hp.html",
+            "visit_count": 0
          }, {
             "date_added": "13399489524451463",
             "date_last_used": "0",
             "guid": "45854f68-2980-49ad-beb5-cf325cd4ab81",
             "id": "15",
             "name": "Agoda",
+            "show_icon": false,
+            "source": "unknown",
             "type": "url",
-            "url": "https://js.redirect.hp.com/jumpstation?bd=agoda&c=232&locale=*&pf=*&tp=edge&TYPE=3"
+            "url": "https://js.redirect.hp.com/jumpstation?bd=agoda&c=232&locale=*&pf=*&tp=edge&TYPE=3",
+            "visit_count": 0
          }, {
             "date_added": "13399489524450780",
             "date_last_used": "0",
             "guid": "82d283f8-563d-4d29-8696-0914311910d8",
             "id": "14",
             "name": "McAfee Security",
+            "show_icon": false,
+            "source": "unknown",
             "type": "url",
-            "url": "https://www.mcafee.com/consumer/v/browserfav/hp.html"
+            "url": "https://www.mcafee.com/consumer/v/browserfav/hp.html",
+            "visit_count": 0
          }, {
             "date_added": "13399486439325143",
             "date_last_used": "0",
             "guid": "f192cc62-7799-49f5-b5e9-14ffcd70d3ce",
             "id": "11",
             "name": "Agoda",
+            "show_icon": false,
+            "source": "unknown",
             "type": "url",
-            "url": "https://js.redirect.hp.com/jumpstation?bd=agoda&c=232&locale=*&pf=*&tp=edge&TYPE=3"
+            "url": "https://js.redirect.hp.com/jumpstation?bd=agoda&c=232&locale=*&pf=*&tp=edge&TYPE=3",
+            "visit_count": 0
          }, {
             "date_added": "13399486439323546",
             "date_last_used": "0",
             "guid": "ae83ebf2-6658-47a3-b460-c05333092b88",
             "id": "10",
             "name": "McAfee Security",
+            "show_icon": false,
+            "source": "unknown",
             "type": "url",
-            "url": "https://www.mcafee.com/consumer/v/browserfav/hp.html"
+            "url": "https://www.mcafee.com/consumer/v/browserfav/hp.html",
+            "visit_count": 0
          }, {
             "date_added": "13399482973830116",
             "date_last_used": "0",
             "guid": "44fbd8fe-4247-46b0-8998-305e3dd6bf5d",
             "id": "7",
             "name": "Agoda",
+            "show_icon": false,
+            "source": "unknown",
             "type": "url",
-            "url": "https://js.redirect.hp.com/jumpstation?bd=agoda&c=232&locale=*&pf=*&tp=edge&TYPE=3"
+            "url": "https://js.redirect.hp.com/jumpstation?bd=agoda&c=232&locale=*&pf=*&tp=edge&TYPE=3",
+            "visit_count": 0
          }, {
             "date_added": "13399482973828491",
             "date_last_used": "0",
             "guid": "9024f5c7-a0cf-49d0-b9a8-737b87b7865b",
             "id": "6",
             "name": "McAfee Security",
+            "show_icon": false,
+            "source": "unknown",
             "type": "url",
-            "url": "https://www.mcafee.com/consumer/v/browserfav/hp.html"
+            "url": "https://www.mcafee.com/consumer/v/browserfav/hp.html",
+            "visit_count": 0
          } ],
          "date_added": "13399482972216024",
          "date_last_used": "0",
-         "date_modified": "13399490105594444",
+         "date_modified": "13402308975069983",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
-         "name": "Bookmarks bar",
+         "name": "Favorites bar",
+         "source": "unknown",
          "type": "folder"
       },
       "other": {
@@ -82,7 +327,8 @@
          "date_modified": "0",
          "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
          "id": "2",
-         "name": "Other bookmarks",
+         "name": "Other favorites",
+         "source": "unknown",
          "type": "folder"
       },
       "synced": {
@@ -92,7 +338,8 @@
          "date_modified": "0",
          "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
          "id": "3",
-         "name": "Mobile bookmarks",
+         "name": "Mobile favorites",
+         "source": "unknown",
          "type": "folder"
       }
    },

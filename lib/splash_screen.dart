@@ -18,12 +18,13 @@ class _SplashScreenState extends State<SplashScreen> {
 
     // Check if this is a password recovery session
     final session = Supabase.instance.client.auth.currentSession;
-    
+
     if (mounted) {
       if (session != null) {
         // Check URL for recovery parameters
         final uri = Uri.base;
-        if (uri.fragment.contains('type=recovery') || uri.path.contains('reset-password')) {
+        if (uri.fragment.contains('type=recovery') ||
+            uri.path.contains('reset-password')) {
           // This is a password reset session
           Navigator.of(context).pushReplacementNamed('/reset-password');
         } else {

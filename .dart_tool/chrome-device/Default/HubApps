@@ -1,5 +1,5 @@
 {
-   "current_locale": "en-GB",
+   "current_locale": "en-US",
    "hub_apps": [ {
       "auto_open_v2": [ {
          "approved_channels": [ "canary" ],
@@ -178,7 +178,7 @@
          "deprecated_hide_header": true
       },
       "default_locale": "en",
-      "description": "Get contextual information about the content and web page you are currently on.",
+      "description": "Contextually relevant info for any page",
       "icon": {
          "raster_icon": {
             "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_chatB_active_dark.png/1.6.8/asset",
@@ -503,7 +503,7 @@
             }
          },
          "location": "hovercard",
-         "name": "Create new Workbook"
+         "name": "Create new workbook"
       }, {
          "action": {
             "target": "new_tab",
@@ -899,7 +899,7 @@
             "builtin_icon": "OpenInNew"
          },
          "location": "header_button",
-         "name": "Open in new tab"
+         "name": "Open link in new tab"
       } ],
       "default_locale": "en",
       "description": "Listen to music on Apple Music!",
@@ -937,7 +937,7 @@
             "builtin_icon": "OpenInNew"
          },
          "location": "header_button",
-         "name": "Open in new tab"
+         "name": "Open link in new tab"
       } ],
       "default_locale": "en",
       "description": "Listen to music on Spotify!",
@@ -975,7 +975,7 @@
             "builtin_icon": "OpenInNew"
          },
          "location": "header_button",
-         "name": "Open in new tab"
+         "name": "Open link in new tab"
       } ],
       "default_locale": "en",
       "description": "Listen to music on Amazon Music!",
@@ -1082,7 +1082,7 @@
             "builtin_icon": "OpenInNew"
          },
          "location": "header_button",
-         "name": "Open in new tab"
+         "name": "Open link in new tab"
       } ],
       "default_locale": "en",
       "description": "Chat with people via Messenger",
@@ -1121,7 +1121,7 @@
             "builtin_icon": "OpenInNew"
          },
          "location": "header_button",
-         "name": "Open in new tab"
+         "name": "Open link in new tab"
       } ],
       "default_locale": "en",
       "description": "Chat with people via Instagram",
@@ -1291,7 +1291,7 @@
             "builtin_icon": "OpenInNew"
          },
          "location": "header_button",
-         "name": "Open in new tab"
+         "name": "Open link in new tab"
       } ],
       "default_locale": "en",
       "description": "Chat with people via WhatsApp",
@@ -1427,10 +1427,10 @@
             "builtin_icon": "OpenInNew"
          },
          "location": "header_button",
-         "name": "Open in new tab"
+         "name": "Open link in new tab"
       } ],
       "default_locale": "en",
-      "description": "Check email while staying in your flow",
+      "description": "Check email while staying in your flow.",
       "icon": {
          "raster_icon": {
             "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_gmail.png/1.5.4/asset"
@@ -1445,7 +1445,7 @@
          "awareness_prompts": {
             "bubble_notifications": {
                "domains": [ "gmail.com" ],
-               "text": "Check your email while staying in your browser flow"
+               "text": "Check your mail while staying in your browser flow"
             }
          },
          "enabled": true
@@ -1469,10 +1469,10 @@
             "builtin_icon": "OpenInNew"
          },
          "location": "header_button",
-         "name": "Open in new tab"
+         "name": "Open link in new tab"
       } ],
       "default_locale": "en",
-      "description": "Browse videos while staying in your flow",
+      "description": "Browse videos while staying in your flow.",
       "icon": {
          "raster_icon": {
             "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_youtube.png/1.4.14/asset"
@@ -1719,7 +1719,7 @@
          "enabled|flight:msHubAppMsStartAutoOpenV2": true,
          "footer": {
             "open_count": 10,
-            "text": "Continue to explore your feed and related topics as you browse."
+            "text": "We opened the news feed in this sidebar so you can continue browsing."
          },
          "force_auto_open": false,
          "id": "c8ebbf64-e3b8-41d9-925f-4e3754151ff7",

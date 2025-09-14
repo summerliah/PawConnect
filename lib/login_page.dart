@@ -83,7 +83,7 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                     ),
                     SizedBox(height: 24),
-                    
+
                     // Welcome title
                     Text(
                       'Welcome Back! 🐾',
@@ -95,7 +95,7 @@ class _LoginPageState extends State<LoginPage> {
                       textAlign: TextAlign.center,
                     ),
                     SizedBox(height: 12),
-                    
+
                     // App branding
                     RichText(
                       textAlign: TextAlign.center,
@@ -118,7 +118,7 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                     ),
                     SizedBox(height: 20),
-                    
+
                     // Feature highlight card
                     Container(
                       padding: EdgeInsets.all(16),
@@ -159,7 +159,7 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                     ),
                     SizedBox(height: 24),
-                    
+
                     // Modern CTA button
                     Container(
                       width: double.infinity,
@@ -307,7 +307,7 @@ class _LoginPageState extends State<LoginPage> {
                   style: TextStyle(color: Colors.brown[500]),
                 ),
               ),
-              
+
               SizedBox(height: 5),
 
               // Register button
@@ -319,6 +319,11 @@ class _LoginPageState extends State<LoginPage> {
                   'Don\'t have an account? Register now',
                   style: TextStyle(color: Colors.brown[700]),
                 ),
+              ),
+              Image.asset(
+                'assets/dog.png',
+                height: 235,
+                fit: BoxFit.contain,
               ),
             ],
           ),
