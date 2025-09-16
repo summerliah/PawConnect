@@ -26,7 +26,7 @@ class ProfilePage extends StatefulWidget {
 class _ProfilePageState extends State<ProfilePage>
     with SingleTickerProviderStateMixin {
   late TabController _tabController;
-  
+
   ProfileModel? _profile;
   bool _isLoading = true;
   bool _isFollowing = false;
@@ -34,7 +34,7 @@ class _ProfilePageState extends State<ProfilePage>
   int _followingCount = 0;
   int _postsCount = 0;
   List<Map<String, dynamic>> _userPosts = [];
-  
+
   final ImagePicker _imagePicker = ImagePicker();
 
   @override
@@ -52,10 +52,10 @@ class _ProfilePageState extends State<ProfilePage>
 
   Future<void> _loadProfile() async {
     setState(() => _isLoading = true);
-    
+
     try {
       ProfileModel? profile;
-      
+
       if (widget.isOwnProfile) {
         profile = await ProfileService.getCurrentUserProfile();
       } else if (widget.userId != null) {
@@ -67,7 +67,7 @@ class _ProfilePageState extends State<ProfilePage>
         final following = await ProfileService.getFollowingCount(profile.id);
         final posts = await ProfileService.getPostsCount(profile.id);
         final userPosts = await ProfileService.getUserPosts(profile.id);
-        
+
         if (!widget.isOwnProfile && widget.userId != null) {
           final isFollowing = await ProfileService.isFollowing(widget.userId!);
           setState(() => _isFollowing = isFollowing);
@@ -103,12 +103,12 @@ class _ProfilePageState extends State<ProfilePage>
         maxHeight: 512,
         imageQuality: 85,
       );
-      
+
       if (image != null) {
         setState(() => _isLoading = true);
-        
+
         final avatarUrl = await ProfileService.uploadProfilePicture(image);
-        
+
         if (avatarUrl != null) {
           await _loadProfile(); // Reload to get updated profile
           if (mounted) {
@@ -140,14 +140,14 @@ class _ProfilePageState extends State<ProfilePage>
 
   Future<void> _toggleFollow() async {
     if (widget.userId == null) return;
-    
+
     try {
       final newFollowStatus = await ProfileService.toggleFollow(widget.userId!);
       setState(() {
         _isFollowing = newFollowStatus;
         _followersCount += newFollowStatus ? 1 : -1;
       });
-      
+
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
@@ -167,7 +167,7 @@ class _ProfilePageState extends State<ProfilePage>
 
   void _showFullScreenImage() {
     if (_profile?.avatarUrl == null) return;
-    
+
     showDialog(
       context: context,
       builder: (context) => Dialog.fullscreen(
@@ -210,10 +210,12 @@ class _ProfilePageState extends State<ProfilePage>
   }
 
   void _showEditProfileDialog() {
-    final firstNameController = TextEditingController(text: _profile?.firstName ?? '');
-    final lastNameController = TextEditingController(text: _profile?.lastName ?? '');
+    final firstNameController =
+        TextEditingController(text: _profile?.firstName ?? '');
+    final lastNameController =
+        TextEditingController(text: _profile?.lastName ?? '');
     final bioController = TextEditingController(text: _profile?.bio ?? '');
-    
+
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
@@ -310,10 +312,10 @@ class _ProfilePageState extends State<ProfilePage>
                 lastName: lastNameController.text.trim(),
                 bio: bioController.text.trim(),
               );
-              
+
               if (mounted) {
                 Navigator.pop(context);
-                
+
                 if (success) {
                   await _loadProfile();
                   ScaffoldMessenger.of(context).showSnackBar(
@@ -379,7 +381,8 @@ class _ProfilePageState extends State<ProfilePage>
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           IconButton(
-                            icon: const Icon(Icons.arrow_back_ios, color: Colors.white),
+                            icon: const Icon(Icons.arrow_back_ios,
+                                color: Colors.white),
                             onPressed: () {
                               if (widget.onBackPressed != null) {
                                 // Use the callback if provided (for bottom navigation)
@@ -390,7 +393,7 @@ class _ProfilePageState extends State<ProfilePage>
                               } else {
                                 // Fallback: navigate to home
                                 Navigator.of(context).pushNamedAndRemoveUntil(
-                                  '/home', 
+                                  '/home',
                                   (route) => false,
                                 );
                               }
@@ -404,7 +407,7 @@ class _ProfilePageState extends State<ProfilePage>
                         ],
                       ),
                     ),
-                    
+
                     // Profile picture and info
                     Padding(
                       padding: const EdgeInsets.all(20.0),
@@ -433,9 +436,9 @@ class _ProfilePageState extends State<ProfilePage>
                               ],
                             ),
                           ),
-                          
+
                           const SizedBox(height: 16),
-                          
+
                           // Name and edit button
                           Row(
                             mainAxisAlignment: MainAxisAlignment.center,
@@ -450,16 +453,18 @@ class _ProfilePageState extends State<ProfilePage>
                               ),
                               if (widget.isOwnProfile)
                                 IconButton(
-                                  icon: const Icon(Icons.edit, color: Colors.white),
+                                  icon: const Icon(Icons.edit,
+                                      color: Colors.white),
                                   onPressed: _showEditProfileDialog,
                                 ),
                             ],
                           ),
-                          
+
                           // Bio
                           if (_profile!.bio != null)
                             Padding(
-                              padding: const EdgeInsets.symmetric(horizontal: 20),
+                              padding:
+                                  const EdgeInsets.symmetric(horizontal: 20),
                               child: Text(
                                 _profile!.bio!,
                                 textAlign: TextAlign.center,
@@ -469,34 +474,40 @@ class _ProfilePageState extends State<ProfilePage>
                                 ),
                               ),
                             ),
-                          
+
                           const SizedBox(height: 20),
-                          
+
                           // Stats row
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
                               _buildStatColumn('Posts', _postsCount.toString()),
-                              _buildStatColumn('Followers', _followersCount.toString()),
-                              _buildStatColumn('Following', _followingCount.toString()),
+                              _buildStatColumn(
+                                  'Followers', _followersCount.toString()),
+                              _buildStatColumn(
+                                  'Following', _followingCount.toString()),
                             ],
                           ),
-                          
+
                           const SizedBox(height: 20),
-                          
+
                           // Follow/Edit button
                           if (!widget.isOwnProfile)
                             ElevatedButton(
                               onPressed: _toggleFollow,
                               style: ElevatedButton.styleFrom(
-                                backgroundColor: _isFollowing ? Colors.white : Colors.orange[600],
-                                foregroundColor: _isFollowing ? Colors.orange : Colors.white,
+                                backgroundColor: _isFollowing
+                                    ? Colors.white
+                                    : Colors.orange[600],
+                                foregroundColor:
+                                    _isFollowing ? Colors.orange : Colors.white,
                                 minimumSize: const Size(120, 40),
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(20),
                                 ),
                               ),
-                              child: Text(_isFollowing ? 'Following' : 'Follow'),
+                              child:
+                                  Text(_isFollowing ? 'Following' : 'Follow'),
                             ),
                         ],
                       ),
@@ -506,7 +517,7 @@ class _ProfilePageState extends State<ProfilePage>
               ),
             ),
           ),
-          
+
           // Tab bar
           SliverToBoxAdapter(
             child: Container(
@@ -524,7 +535,7 @@ class _ProfilePageState extends State<ProfilePage>
               ),
             ),
           ),
-          
+
           // Tab content
           SliverFillRemaining(
             child: TabBarView(
@@ -750,7 +761,8 @@ class _ProfilePageState extends State<ProfilePage>
     );
   }
 
-  Widget _buildMenuItem(IconData icon, String title, VoidCallback onTap, {bool isDestructive = false}) {
+  Widget _buildMenuItem(IconData icon, String title, VoidCallback onTap,
+      {bool isDestructive = false}) {
     return InkWell(
       onTap: onTap,
       child: Padding(

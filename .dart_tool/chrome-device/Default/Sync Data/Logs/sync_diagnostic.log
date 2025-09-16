@@ -2613,3 +2613,75 @@
 2025-09-14 07:36:15.303: [INFO][Sync] Credentials changed for: EdgeSyncScopeNew
 2025-09-14 07:40:04.536: [INFO][Sync] Reset engine, reason: 0
 2025-09-14 07:40:04.536: [INFO][Sync] Reset engine with reason: 0
+2025-09-14 08:52:52.150: [INFO][Sync] SyncState after authenticated was: FeatureNotRequestedNotSetup
+2025-09-14 08:52:52.493: [INFO][Sync] Try to start sync engine
+2025-09-14 08:52:52.495: [INFO][SyncManagerImpl::NudgeForInitialDownload] Initial download nudge for Encryption Keys
+2025-09-14 08:52:52.495: [INFO][SyncEngineBackend::LoadAndConnectNigoriController] Load and connect Nigori controller
+2025-09-14 08:52:52.495: [INFO][SyncEngineBackend::DoInitialize] Control Types added: Encryption Keys
+2025-09-14 08:52:52.495: [INFO][SyncManagerImpl::ConfigureSyncer] Types to download: Encryption Keys with reason: 3
+2025-09-14 08:52:52.495: [INFO][SyncSchedulerImpl::DoConfigurationSyncCycleJob] Configure job was blocked
+2025-09-14 08:52:54.785: [INFO][SyncAuthManager::SetLastAuthError] Current auth error: None
+2025-09-14 08:52:54.785: [INFO][SyncAuthManager::EdgeLogTokenErrorState] Token error with: None for account type: AAD
+2025-09-14 08:52:54.785: [INFO][Sync] Credentials changed for: EdgeSyncScopeNew
+2025-09-14 11:32:21.700: [INFO][Sync] Reset engine, reason: 0
+2025-09-14 11:32:21.701: [INFO][Sync] Reset engine with reason: 0
+2025-09-14 11:33:47.117: [INFO][Sync] SyncState after authenticated was: FeatureNotRequestedNotSetup
+2025-09-14 11:33:47.666: [INFO][Sync] Try to start sync engine
+2025-09-14 11:33:47.669: [INFO][SyncManagerImpl::NudgeForInitialDownload] Initial download nudge for Encryption Keys
+2025-09-14 11:33:47.669: [INFO][SyncEngineBackend::LoadAndConnectNigoriController] Load and connect Nigori controller
+2025-09-14 11:33:47.670: [INFO][SyncEngineBackend::DoInitialize] Control Types added: Encryption Keys
+2025-09-14 11:33:47.670: [INFO][SyncManagerImpl::ConfigureSyncer] Types to download: Encryption Keys with reason: 3
+2025-09-14 11:33:47.670: [INFO][SyncSchedulerImpl::DoConfigurationSyncCycleJob] Configure job was blocked
+2025-09-14 11:33:49.828: [INFO][SyncAuthManager::SetLastAuthError] Current auth error: None
+2025-09-14 11:33:49.828: [INFO][SyncAuthManager::EdgeLogTokenErrorState] Token error with: None for account type: AAD
+2025-09-14 11:33:49.828: [INFO][Sync] Credentials changed for: EdgeSyncScopeNew
+2025-09-14 13:25:45.680: [INFO][Sync] Reset engine, reason: 0
+2025-09-14 13:25:45.680: [INFO][Sync] Reset engine with reason: 0
+2025-09-14 13:30:06.342: [INFO][Sync] SyncState after authenticated was: FeatureNotRequestedNotSetup
+2025-09-14 13:30:06.864: [INFO][Sync] Try to start sync engine
+2025-09-14 13:30:06.866: [INFO][SyncManagerImpl::NudgeForInitialDownload] Initial download nudge for Encryption Keys
+2025-09-14 13:30:06.868: [INFO][SyncEngineBackend::LoadAndConnectNigoriController] Load and connect Nigori controller
+2025-09-14 13:30:06.868: [INFO][SyncEngineBackend::DoInitialize] Control Types added: Encryption Keys
+2025-09-14 13:30:06.868: [INFO][SyncManagerImpl::ConfigureSyncer] Types to download: Encryption Keys with reason: 3
+2025-09-14 13:30:06.868: [INFO][SyncSchedulerImpl::DoConfigurationSyncCycleJob] Configure job was blocked
+2025-09-14 13:30:08.545: [INFO][SyncAuthManager::SetLastAuthError] Current auth error: None
+2025-09-14 13:30:08.545: [INFO][SyncAuthManager::EdgeLogTokenErrorState] Token error with: None for account type: AAD
+2025-09-14 13:30:08.545: [INFO][Sync] Credentials changed for: EdgeSyncScopeNew
+2025-09-14 16:32:08.264: [INFO][Sync] Reset engine, reason: 0
+2025-09-14 16:32:08.264: [INFO][Sync] Reset engine with reason: 0
+2025-09-15 16:56:16.478: [INFO][Sync] SyncState after authenticated was: FeatureNotRequestedNotSetup
+2025-09-15 16:56:16.766: [INFO][Sync] Try to start sync engine
+2025-09-15 16:56:16.768: [INFO][SyncManagerImpl::NudgeForInitialDownload] Initial download nudge for Encryption Keys
+2025-09-15 16:56:16.768: [INFO][SyncEngineBackend::LoadAndConnectNigoriController] Load and connect Nigori controller
+2025-09-15 16:56:16.768: [INFO][SyncEngineBackend::DoInitialize] Control Types added: Encryption Keys
+2025-09-15 16:56:16.768: [INFO][SyncManagerImpl::ConfigureSyncer] Types to download: Encryption Keys with reason: 3
+2025-09-15 16:56:16.768: [INFO][SyncSchedulerImpl::DoConfigurationSyncCycleJob] Configure job was blocked
+2025-09-15 16:56:18.525: [INFO][SyncAuthManager::SetLastAuthError] Current auth error: None
+2025-09-15 16:56:18.525: [INFO][SyncAuthManager::EdgeLogTokenErrorState] Token error with: None for account type: AAD
+2025-09-15 16:56:18.525: [INFO][Sync] Credentials changed for: EdgeSyncScopeNew
+2025-09-15 16:57:13.926: [INFO][Sync] Reset engine, reason: 0
+2025-09-15 16:57:13.926: [INFO][Sync] Reset engine with reason: 0
+2025-09-16 04:46:59.251: [INFO][Sync] SyncState after authenticated was: FeatureNotRequestedNotSetup
+2025-09-16 04:46:59.633: [INFO][Sync] Try to start sync engine
+2025-09-16 04:46:59.636: [INFO][SyncManagerImpl::NudgeForInitialDownload] Initial download nudge for Encryption Keys
+2025-09-16 04:46:59.636: [INFO][SyncEngineBackend::LoadAndConnectNigoriController] Load and connect Nigori controller
+2025-09-16 04:46:59.636: [INFO][SyncEngineBackend::DoInitialize] Control Types added: Encryption Keys
+2025-09-16 04:46:59.636: [INFO][SyncManagerImpl::ConfigureSyncer] Types to download: Encryption Keys with reason: 3
+2025-09-16 04:46:59.636: [INFO][SyncSchedulerImpl::DoConfigurationSyncCycleJob] Configure job was blocked
+2025-09-16 04:47:01.857: [INFO][SyncAuthManager::SetLastAuthError] Current auth error: None
+2025-09-16 04:47:01.857: [INFO][SyncAuthManager::EdgeLogTokenErrorState] Token error with: None for account type: AAD
+2025-09-16 04:47:01.857: [INFO][Sync] Credentials changed for: EdgeSyncScopeNew
+2025-09-16 04:52:34.251: [INFO][Sync] Reset engine, reason: 0
+2025-09-16 04:52:34.251: [INFO][Sync] Reset engine with reason: 0
+2025-09-16 05:10:53.364: [INFO][Sync] SyncState after authenticated was: FeatureNotRequestedNotSetup
+2025-09-16 05:10:53.786: [INFO][Sync] Try to start sync engine
+2025-09-16 05:10:53.788: [INFO][SyncManagerImpl::NudgeForInitialDownload] Initial download nudge for Encryption Keys
+2025-09-16 05:10:53.788: [INFO][SyncEngineBackend::LoadAndConnectNigoriController] Load and connect Nigori controller
+2025-09-16 05:10:53.788: [INFO][SyncEngineBackend::DoInitialize] Control Types added: Encryption Keys
+2025-09-16 05:10:53.788: [INFO][SyncManagerImpl::ConfigureSyncer] Types to download: Encryption Keys with reason: 3
+2025-09-16 05:10:53.788: [INFO][SyncSchedulerImpl::DoConfigurationSyncCycleJob] Configure job was blocked
+2025-09-16 05:10:53.939: [INFO][SyncAuthManager::SetLastAuthError] Current auth error: None
+2025-09-16 05:10:53.939: [INFO][SyncAuthManager::EdgeLogTokenErrorState] Token error with: None for account type: AAD
+2025-09-16 05:10:53.939: [INFO][Sync] Credentials changed for: EdgeSyncScopeNew
+2025-09-16 05:13:42.699: [INFO][Sync] Reset engine, reason: 0
+2025-09-16 05:13:42.699: [INFO][Sync] Reset engine with reason: 0
